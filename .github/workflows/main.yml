@@ -1,8 +1,8 @@
-name: Supabase Keep Alive (With Dummy Table)
+name: Supabase Keep Alive (Skyros Avaliabilty)
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Κάθε μέρα, μεσάνυχτα UTC
+    - cron: '0 */6 * * *' # Κάθε 6 ώρες
   workflow_dispatch: # Δυνατότητα manual trigger
 
 jobs:
